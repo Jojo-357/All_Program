@@ -23,4 +23,11 @@
    (use "git restore --staged <file>..." to unstage)
         new file:   file3.txt
 
-4. 
+4.  $ git clone "https://github.com/Jojo-357/Demo1.git"
+    Cloning into 'Demo1'...
+    remote: Enumerating objects: 3, done.
+    remote: Counting objects: 100% (3/3), done.
+    remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+    Receiving objects: 100% (3/3), done.
+
+5. 
