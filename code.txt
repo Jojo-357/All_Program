@@ -1,0 +1,26 @@
+
+
+1.   $ git log
+    commit 3ccdde7b00937a61162de285525fd6b9b15c498d (HEAD -> master)
+    Author: Disha <nsaidisha@gmail.com>
+    Date:   Mon Dec 9 11:06:33 2024 +0530
+        first commit
+
+2.   $ git merge feature_branch
+    Updating 3ccdde7..ebf7371
+    Fast-forward
+    file2.txt | 1 +
+    1 file changed, 1 insertion(+)
+    create mode 100644 file2.txt
+
+    $ git log --oneline
+    ebf7371 (HEAD -> master, feature_branch) Second Exp
+    3ccdde7 first commit
+
+3. $ git stash apply
+   On branch master
+   Changes to be committed:
+   (use "git restore --staged <file>..." to unstage)
+        new file:   file3.txt
+
+4. 
